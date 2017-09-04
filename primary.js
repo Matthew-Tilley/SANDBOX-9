@@ -5,8 +5,7 @@ var white_ball_generator = function()
 	if (white_balls.length < 5)
 	{
 		var possible = Math.ceil(Math.random) * 69;
-		white_balls.push[possible];
-		console.log(white_balls);
+		console.log(possible);
 	}
 	
 	
