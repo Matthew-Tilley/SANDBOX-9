@@ -1,6 +1,4 @@
-var counter = 100;
+var something = prompt("LKAJSD");
 
-while(counter > 0)
-{
-	console.log(counter--);
-}
+
+
