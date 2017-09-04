@@ -5,3 +5,27 @@
 	font-size:					10px;
 }
 
+body
+{
+	display:					flex;
+	flex-direction: 			column;
+	justify-content: 			center;
+	align-items: 				center;
+	
+	height:						100vh;
+	
+}
+
+
+#button_01
+{
+	
+	height:						30vh;
+	padding:					2rem;
+	border-radius: 				50%;
+	
+	font-size:					3rem;
+	color:						white;
+	
+	background-color: 			purple;
+}
