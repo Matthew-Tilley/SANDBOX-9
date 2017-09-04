@@ -1,8 +1,8 @@
-var turkey = [];
+fruits = ["Bananna", "Orange", "Apple", "Mango"];
 
-for ( i = 0; i < 20; i++)
-{
-	turkey.push( i * 22 );
-	console.log( "GOBBLE " + turkey[i] );
-	
-}
+fruits.push("Lemon");
+
+console.log(fruits);
+
+
+
