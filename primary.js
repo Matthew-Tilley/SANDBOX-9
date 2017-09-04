@@ -1,17 +1,20 @@
-var countdown = function(value)
+var countdown = function(pass)
 {
-	if (value > 0)
-	{
-		console.log(value);
-		return countdown(value - 1);
-	}
+	var pass = prompt("ENTER A NUMBER");
 	
-	else
+	while (pass < 100)
 	{
-		return	value;
+		console.log(pass);
+		pass++;
 	}
 }
 
 
-countdown(50);
+countdown();
+
+
+
+
+
+
 
