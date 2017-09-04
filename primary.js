@@ -1,5 +1,8 @@
 var turkey = [];
 
-turkey.push(1);
-
-console.log(turkey.includes(1));
+for ( i = 0; i < 20; i++)
+{
+	turkey.push( i * 22 );
+	console.log( "GOBBLE " + turkey[i] );
+	
+}
