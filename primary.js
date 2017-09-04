@@ -2,10 +2,10 @@ var countdown = function(pass)
 {
 	var pass = prompt("ENTER A NUMBER");
 	
-	while (pass < 100)
+	while (pass > 0)
 	{
 		console.log(pass);
-		pass++;
+		pass--;
 	}
 }
 
